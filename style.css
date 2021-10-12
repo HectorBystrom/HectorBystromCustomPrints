@@ -1,0 +1,40 @@
+header {
+    color: black;
+}
+.rubrik {
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.tag {  
+   padding-left: 30px;
+}
+.tagRight {
+display: flex;
+justify-content: flex-end;
+}
+.Huvudbilder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.Sidobilder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.underRubrik {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
