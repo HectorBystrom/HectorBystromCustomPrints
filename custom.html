@@ -10,25 +10,33 @@
 </head>
 <body>
     <header>
-        <div class="control-panel">
+        <div class="control-panel">  
             <button>🙇</button>
             <button>🛒</button>
           </div>
+          <div class="control-panel_text">
+            <input type="text"  name="search_key" placeholder="Sök produkter och märken" id="header-search-field"> 
+        </div>
           <div class = "rubrik">
-              <h1>Egendesign!</h1>
+              <h1>Custom</h1>
             </div>
             <nav>
                 <a href="tagsMan.html">Män</a>
                 <a href="tagsWoman.html">Kvinnor</a>
-                <a href="index.html">Huvudmeny</a>
-            </nav>         
+                <a href="index.html">Startsida</a>
+            </nav>
+            
     </header>
     <main>
         <div class="customBild">
-        <img src="mjau-kattlada-rumsren.jpg" alt="grå katt på ett golv" width="60%">
-        <select name="Färg" id="">
+        <img src="mjau-kattlada-rumsren.jpg" alt="grå katt på ett golv" width="50%">
+        <select style="height: 50px;" class="Färg" name="Färg" id="Färg" >
             <option value="Välj färg">Välj färg</option>
+            <option value="Välj färg">Svart</option>
+            <option value="Välj färg">vit</option>
+            <option value="Välj färg"><input type="color"></option>
         </select>
+        <button>Custom@gmail.com</button>
         </div>
     </main>
 </body>
