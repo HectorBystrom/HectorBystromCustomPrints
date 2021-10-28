@@ -108,12 +108,15 @@ footer {
   }
   .customBild {
       margin: 5%;
-      margin-left: 150px;
+      margin-left: 15%;
       display: flex;
-      align-items: start;
+  } 
+  .customBildFix {
+      display: flex;
+      flex-direction: column;
+      margin-left: 6%;
   }
-  .Färg {
-      margin-left: 10%;
-
-  }
+ .mejlTryck{
+     margin-top: 40px;
+ }
  
