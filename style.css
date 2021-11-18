@@ -124,9 +124,64 @@ footer {
 }
 .rubrikKundvagn {
   padding-top: 5%;
-  padding-left: 5%;
+  padding-left: 4%;
 }
 .kundvagnDesign {
   display: flex;
   justify-content: space-evenly;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  
+}
+.kundvagnRubriker {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: 15%;
+}
+.btn {
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: rgb(228, 128, 82);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-family: 'Montserrat', sans-serif;  
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.btn:hover,
+.btn-focus {
+  background-color: rgb(156, 121, 105);
+}
+.btn-active {
+  background: #ffffff;
+}
+.btn-outline {
+  outline: none;
+  display: block;
+  border: solid 1px rgb(255, 255, 255); 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #ffffff;
+  color: rgb(228, 128, 82);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-family: 'Montserrat', sans-serif;
+}
+.allaRekommenderadeProdukter {
+  display: flex;
+  margin-left: 30px;
+}
+.login {
+  display: flex;
+  align-items: center;
 }
