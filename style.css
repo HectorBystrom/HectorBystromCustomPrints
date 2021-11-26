@@ -37,8 +37,7 @@ nav a:hover {
 
 .Huvudbilder {
   display: flex;
-  margin-top: 20px;
-  margin-left: 100px;
+  justify-content: space-around;
 }
 .Sidobilder {
   display: flex;
@@ -63,8 +62,7 @@ nav a:hover {
 }
 .slutBilder {
   display: flex;
-  margin-left: 100px;
-  margin-top: 30px;
+  justify-content: space-around;
 }
 footer {
   margin-top: 2%;
